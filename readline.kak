@@ -8,7 +8,7 @@ map -docstring "move the cursor one character to the right" global insert <c-f> 
 map -docstring "move the cursor one word to the left" global insert <a-b> <esc>b\;i
 map -docstring "move the cursor one word to the right" global insert <a-f> <esc>e\;i
 map -docstring "move the cursor to the start of the line" global insert <c-a> <esc>I
-map -docstring "move the cursor to the end of the line" global insert <c-e> <esc>gli
+map -docstring "move the cursor to the end of the line" global insert <c-e> <esc>gA
 
 map -docstring "delete the character under the anchor" global insert <c-d> <esc>c
 map -docstring "delete from the anchor to the start of the line" global insert <c-u> <esc>Ghc
